@@ -1,9 +1,12 @@
 <% if current_user %>
   <% if current_user.archetype == nil %>
+    <!-- this shows when survey is NOT completed -->
     <%= render 'survey' %>
   <% else %>
+    <!-- this shows when survey is completed -->
     <%= render 'main' %>
   <% end %>
 <% else %>
+  <!-- login form shows when user is not logged in -->
   <%= render 'login_form' %>
 <% end %>
