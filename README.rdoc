@@ -1,3 +1,3 @@
 == Baggage Unclaim
 
-Mental health research and bringing authentic relationships to the forefront. Code-named "Project Hope" until released to public. Research goes back to 2003, and application conceptualized in February 2007.
+Mental health research and bringing authentic relationships to the forefront. Code-named "Project Hope" until released to public. Research goes back to 2003, and application conceptualized in February 2007. Porting over a Sinatra app to Rails.
