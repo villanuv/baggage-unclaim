@@ -1,0 +1,9 @@
+<% if current_user %>
+  <% if current_user.archetype == nil %>
+    <%= render 'survey' %>
+  <% else %>
+    <%= render 'main' %>
+  <% end %>
+<% else %>
+  <%= render 'login_form' %>
+<% end %>

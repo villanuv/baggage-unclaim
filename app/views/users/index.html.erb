@@ -1,0 +1,8 @@
+<h1>Users Index</h1>
+
+<table border="1">
+  <tr><th>&nbsp;</th><th>birthday</th><th>archetype</th><th>member since</th></tr>
+  <% @users.each do |user| %>
+    <tr><td><%= link_to user.username, user %></td><td><%= user.birthday.strftime('%B %-d, %Y') %><td><%= user.archetype %></td><td><%= user.created_at.strftime('%B %w, %Y') %></td></tr>
+  <% end %>
+</table>
